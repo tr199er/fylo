@@ -7,8 +7,89 @@
 body {
   font-family: "Open Sans", "Raleway", sans-serif;
 }
+h1,
+h2,
+h3,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
 
 /* ***********INTRO SECTION********** */
 #intro-page {
   background: #1c2230;
 }
+/**************************** NAVBAR *******************************/
+#desktop-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 3rem;
+}
+.logo {
+  width: 6rem;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2.5rem;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #969ca5;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+  text-decoration-color: #969ca5;
+}
+.nav-links li a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+  color: #ecf2f5;
+  text-decoration-color: #ecf2f5;
+}
+
+/* ***********************INTRO PAGE************************** */
+.intro-page-container {
+  background-image: url(/images/bg-curvy-desktop.svg);
+  background-size: cover;
+}
+.intro-img-container {
+  display: flex;
+  justify-content: center;
+}
+.intro-img-container img {
+  width: 35rem;
+}
+.intro-text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  text-align: center;
+  color: #fdffff;
+  margin: 25px 25%;
+}
+.intro-text-box h1 {
+  font-size: 35px;
+}
+.intro-text-box p {
+  font-size: 17px;
+  margin: 0 7rem;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+}
+.intro-page-btn {
+  text-decoration: none;
+  color: white;
+  padding: 10px 40px;
+  background: #43b1d2;
+  border-radius: 20px;
+}
+.intro-page-btn:hover {
+  color: white;
+  background: #8cdae4;
+}
+
+/*********** FEATURES SECTION *************/
