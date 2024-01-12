@@ -14,11 +14,11 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
-/* ***********INTRO SECTION********** */
+/* *********************************INTRO SECTION******************************* */
 #intro-page {
   background: #1c2230;
 }
-/**************************** NAVBAR *******************************/
+/********** NAVBAR **********/
 #desktop-nav {
   display: flex;
   justify-content: space-between;
@@ -47,7 +47,7 @@ h6 {
   text-decoration-color: #ecf2f5;
 }
 
-/* ***********************INTRO PAGE************************** */
+/* *********INTRO PAGE********* */
 .intro-page-container {
   background-image: url(/images/bg-curvy-desktop.svg);
   background-size: cover;
@@ -92,4 +92,16 @@ h6 {
   background: #8cdae4;
 }
 
-/*********** FEATURES SECTION *************/
+/**************************** FEATURES SECTION *****************************/
+#features {
+  background: #181e2a;
+}
+
+/***************************** PRODUCTIVE SECTION *****************************/
+#productive {
+  background: #181e2a;
+  color: white;
+  padding: 30px 20px;
+}
+
+/******************* TESTIMONIES SECTION *********************/
