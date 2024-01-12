@@ -95,6 +95,25 @@ h6 {
 /**************************** FEATURES SECTION *****************************/
 #features {
   background: #181e2a;
+  color: white;
+  padding: 4rem;
+}
+.features_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+.features-card-container {
+  flex: 0 0 48%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.features-card {
+  padding: 0 5rem;
 }
 
 /***************************** PRODUCTIVE SECTION *****************************/
