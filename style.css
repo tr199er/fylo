@@ -96,31 +96,71 @@ h6 {
 #features {
   background: #181e2a;
   color: white;
-  padding: 4rem;
+  padding: 8rem;
 }
 .features_container {
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  height: 100vh;
+  /* height: 80vh; */
   flex-wrap: wrap;
 }
 .features-card-container {
   flex: 0 0 48%;
   text-align: center;
   display: flex;
+  height: 40vh;
   justify-content: center;
   align-items: center;
 }
 .features-card {
-  padding: 0 5rem;
+  padding: 0 4rem;
 }
 
 /***************************** PRODUCTIVE SECTION *****************************/
 #productive {
   background: #181e2a;
   color: white;
-  padding: 30px 20px;
+  padding: 4rem 4irem;
+}
+.productive-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  /* height: 80vh; */
+  flex-wrap: wrap;
+}
+.productive-img {
+  flex: 0 0 48%;
+}
+.productive-img img {
+  max-width: 100%;
+}
+.productive-text-container {
+  flex: 0 0 48%;
+  display: flex;
+  align-items: center;
+}
+.productive-text-container h3 {
+  font-size: 50px;
+}
+.productive-text-container p {
+  margin: 1.7rem 0;
+}
+.productive-text-container a {
+  color: #5cd5cf;
+  text-decoration: none;
+  border-bottom: 2px #5cd5cf solid;
+  margin-bottom: 2px;
+  transition: all 1s ease-in-out;
+}
+.productive-text-container a img {
+  position: relative;
+  bottom: -2px;
+}
+.productive-text-container a:hover {
+  color: white;
+  border-bottom: 2px white solid;
 }
 
 /******************* TESTIMONIES SECTION *********************/
