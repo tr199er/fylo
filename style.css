@@ -257,6 +257,7 @@ footer {
 .footer-container {
   display: flex;
   margin-top: 1.5rem;
+  justify-content: space-between;
 }
 .f-1 {
   flex: 0 0 35%;
@@ -267,5 +268,5 @@ footer {
 .footer-icon {
   width: 30px;
   height: 30px;
-  color: white;
+  fill: white;
 }
