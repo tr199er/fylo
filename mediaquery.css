@@ -139,6 +139,16 @@
     padding-left: 0;
     width: 30px;
   }
+  .f-5 {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  .icn {
+    padding: 5px;
+    border: 1px white solid;
+    border-radius: 100%;
+  }
 }
 @media screen and (max-width: 480px) {
 }
