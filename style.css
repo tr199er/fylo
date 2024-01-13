@@ -176,9 +176,10 @@ h6 {
   align-items: center;
   justify-content: center;
 }
+
 .image-container {
   position: absolute;
-  top: 9.4rem;
+  top: 9.5rem;
   left: 50px;
   z-index: 1;
 }
@@ -243,6 +244,7 @@ h6 {
   align-items: center;
   justify-content: center;
 }
+
 .main-input div a {
   text-decoration: none;
   color: white;

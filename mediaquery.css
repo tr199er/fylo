@@ -1,4 +1,11 @@
 @media screen and (max-width: 1200px) {
+  .productive-text-container h3 {
+    font-size: 40px;
+  }
+  .image-container {
+    top: 9.2rem;
+    left: 45px;
+  }
 }
 @media screen and (max-width: 980px) {
 }
