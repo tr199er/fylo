@@ -113,7 +113,7 @@
     display: block;
   }
   #testimonies {
-    height: 150vh;
+    height: 100vh;
   }
   .image-container {
     position: absolute;
@@ -238,7 +238,7 @@
   }
 
   .main-input div a {
-    font-size: 9px;
+    font-size: 13px;
   }
   #input-field {
     padding: 10px;
