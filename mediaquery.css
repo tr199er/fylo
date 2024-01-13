@@ -249,6 +249,9 @@
   footer {
     padding: 10rem 2rem 5rem;
   }
+  .f-1 {
+    gap: 1rem;
+  }
   .footer-icon {
     width: 20px;
     height: 20px;
