@@ -250,10 +250,22 @@ h6 {
 /**************** FOOTER SECTION *************/
 footer {
   background: #0c1524;
-  padding: 8rem 4rem 3rem;
+  padding: 8rem 4rem 5rem;
   color: white;
 }
 
 .footer-container {
   display: flex;
+  margin-top: 1.5rem;
+}
+.f-1 {
+  flex: 0 0 35%;
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+}
+.footer-icon {
+  width: 30px;
+  height: 30px;
+  color: white;
 }
