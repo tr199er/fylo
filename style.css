@@ -246,3 +246,14 @@ h6 {
   text-decoration: none;
   color: white;
 }
+
+/**************** FOOTER SECTION *************/
+footer {
+  background: #0c1524;
+  padding: 8rem 4rem 3rem;
+  color: white;
+}
+
+.footer-container {
+  display: flex;
+}
