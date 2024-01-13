@@ -17,6 +17,7 @@
 @media screen and (max-width: 980px) {
   .intro-text-box {
     gap: 1.3rem;
+    margin: 25px 17%;
   }
   .intro-text-box h1 {
     font-size: 30px;
@@ -56,8 +57,80 @@
     width: 630px;
     padding-top: 15px;
   }
+  .f-1 {
+    flex: 0 0 30%;
+    gap: 2rem;
+    font-size: 13px;
+  }
+  .footer-icon {
+    width: 25px;
+    height: 25px;
+  }
+  .f-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 13px;
+  }
+  .f-2 img {
+    padding: 0 1rem;
+    width: 48px;
+  }
+
+  footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    font-size: 13px;
+  }
 }
 @media screen and (max-width: 768px) {
+  .intro-img-container img {
+    width: 29rem;
+  }
+  .intro-text-box {
+    margin: 25px 7%;
+  }
+  .intro-text-box h1 {
+    font-size: 28px;
+  }
+  .intro-text-box p {
+    font-size: 15px;
+    margin: 0 3.5rem;
+  }
+  .features_container {
+    display: block;
+  }
+  .productive-container {
+    display: block;
+  }
+  #testimonies {
+    height: 150vh;
+  }
+  .image-container {
+    position: absolute;
+    top: 9.5rem;
+    left: 35px;
+    z-index: 1;
+  }
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .input-container h2 {
+    font-size: 23px;
+  }
+  .input-container p {
+    font-size: 11px;
+  }
+  .input-container p {
+    width: 400px;
+  }
+  .main-input div a {
+    font-size: 13px;
+  }
 }
 @media screen and (max-width: 480px) {
 }
