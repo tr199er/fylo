@@ -110,7 +110,7 @@
   }
   .image-container {
     position: absolute;
-    top: 9.5rem;
+    top: 9rem;
     left: 35px;
     z-index: 1;
   }
@@ -124,10 +124,9 @@
   }
   .input-container p {
     font-size: 11px;
-  }
-  .input-container p {
     width: 400px;
   }
+
   .main-input div a {
     font-size: 13px;
   }
@@ -151,6 +150,93 @@
   }
 }
 @media screen and (max-width: 480px) {
+  #desktop-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.3rem 1.2rem;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.3rem;
+  }
+  .nav-links li a {
+    font-size: 13px;
+  }
+  .intro-img-container img {
+    width: 20rem;
+  }
+  .intro-text-box {
+    margin: 20px 3%;
+  }
+  .intro-text-box h1 {
+    font-size: 23px;
+  }
+  .intro-text-box p {
+    font-size: 13px;
+    margin: 0 2.4rem;
+  }
+  #features {
+    background: #181e2a;
+    color: white;
+    padding: 2rem;
+  }
+  .features-card-container {
+    gap: 4rem;
+  }
+  .features-card {
+    padding: 3rem 1rem;
+  }
+  .features-card h3 {
+    font-size: 23px;
+  }
+  .features-card p {
+    font-size: 13px;
+  }
+  .productive-text h3 {
+    font-size: 23px;
+  }
+  .productive-text p {
+    font-size: 13px;
+  }
+  .image-container {
+    position: absolute;
+    top: 8.5rem;
+    left: 35px;
+    z-index: 1;
+  }
+  .cards p {
+    font-size: 13px;
+  }
+  .cards h6 {
+    font-size: 13px;
+    font-size: 700;
+  }
+
+  .input-container {
+    padding: 2.5rem 1rem 1.5rem;
+  }
+  .input-container h2 {
+    font-size: 20px;
+  }
+  .input-container p {
+    font-size: 9px;
+    width: 300px;
+  }
+
+  .main-input div a {
+    font-size: 9px;
+  }
+  #input-field {
+    padding: 10px;
+    border: none;
+    flex: 0 0 55%;
+    border-radius: 20px;
+  }
+  footer {
+    padding: 8rem 2rem 5rem;
+  }
 }
 @media screen and (max-width: 365px) {
 }
