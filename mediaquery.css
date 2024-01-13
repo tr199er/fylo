@@ -131,6 +131,14 @@
   .main-input div a {
     font-size: 13px;
   }
+  .footer-container {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .f-2 img {
+    padding-left: 0;
+    width: 30px;
+  }
 }
 @media screen and (max-width: 480px) {
 }
