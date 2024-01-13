@@ -3,11 +3,43 @@
     font-size: 40px;
   }
   .image-container {
-    top: 9.2rem;
+    top: 8rem;
     left: 45px;
+  }
+  .icn {
+    width: 25px;
+    height: auto;
   }
 }
 @media screen and (max-width: 980px) {
+  .intro-text-box {
+    gap: 1.3rem;
+  }
+  .intro-text-box h1 {
+    font-size: 30px;
+  }
+  .intro-text-box p {
+    font-size: 15px;
+    margin: 0 5rem;
+  }
+  .image-container {
+    top: 8.6rem;
+    left: 10px;
+  }
+  .cards-container {
+    padding: 0 2rem;
+  }
+  .cards {
+    padding: 1.3rem;
+  }
+  .input-container {
+    padding: 2.5rem 1rem 1.5rem;
+  }
+  .input-container p {
+    word-wrap: break-word;
+    width: 600px;
+    padding-top: 15px;
+  }
 }
 @media screen and (max-width: 768px) {
 }

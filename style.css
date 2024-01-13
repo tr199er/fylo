@@ -291,5 +291,6 @@ footer ul {
 
 .icn {
   padding: 0 5px;
-  width: 25px;
+  width: 30px;
+  height: auto;
 }
