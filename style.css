@@ -165,4 +165,71 @@ h6 {
 }
 
 /******************* TESTIMONIES SECTION *********************/
-#
+#testimonies {
+  background: #181e2a;
+  color: white;
+  position: relative;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.image-container {
+  position: absolute;
+  top: 9.4rem;
+  left: 50px;
+  z-index: 1;
+}
+.cards-container {
+  position: inherit;
+  display: flex;
+  padding: 0 4rem;
+  justify-content: space-between;
+  gap: 1rem;
+  z-index: 2;
+}
+.cards {
+  background: #21293c;
+  padding: 2rem;
+}
+.profile-details {
+  display: flex;
+  margin-top: 3rem;
+}
+.profile-details img {
+  width: 40px;
+  border-radius: 100%;
+  padding-right: 8px;
+}
+
+/*********** input ***********/
+.input-container {
+  position: absolute;
+  bottom: -7rem;
+  background: #1c2230;
+  padding: 5rem;
+  box-shadow: 0 0 10px black;
+}
+.main-input {
+  display: flex;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+
+#input-field {
+  padding: 10px;
+  border: none;
+  flex: 0 0 65%;
+  border-radius: 20px;
+}
+.main-input a {
+  display: flex;
+  flex: 0 0 30%;
+  text-decoration: none;
+  background: #5cd5cf;
+  color: white;
+  align-items: center;
+  border-radius: 20px;
+  padding: 100%;
+}
