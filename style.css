@@ -103,7 +103,6 @@ h6 {
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  /* height: 80vh; */
   flex-wrap: wrap;
 }
 .features-card-container {

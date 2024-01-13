@@ -6,6 +6,9 @@
     top: 8rem;
     left: 45px;
   }
+  .cards {
+    padding: 1.6rem;
+  }
   .icn {
     width: 25px;
     height: auto;
@@ -22,8 +25,21 @@
     font-size: 15px;
     margin: 0 5rem;
   }
+  #features {
+    padding: 2rem;
+  }
+  .features-card {
+    padding: 0 2rem;
+  }
+  .productive-text-container h3 {
+    font-size: 37px;
+  }
+  .productive-text-container p {
+    margin: 1rem 0;
+    font-size: 15px;
+  }
   .image-container {
-    top: 8.6rem;
+    top: 7.5rem;
     left: 10px;
   }
   .cards-container {
@@ -37,7 +53,7 @@
   }
   .input-container p {
     word-wrap: break-word;
-    width: 600px;
+    width: 630px;
     padding-top: 15px;
   }
 }
