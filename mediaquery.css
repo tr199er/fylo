@@ -249,6 +249,10 @@
   footer {
     padding: 10rem 2rem 5rem;
   }
+  .footer-icon {
+    width: 25px;
+    height: 25px;
+  }
   .footer-container {
     flex-direction: column;
     gap: 2rem;
