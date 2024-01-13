@@ -1,1 +1,10 @@
-@screen;
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 365px) {
+}
