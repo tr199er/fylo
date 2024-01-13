@@ -231,6 +231,11 @@
     font-size: 9px;
     width: 300px;
   }
+  .main-input {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
 
   .main-input div a {
     font-size: 9px;
