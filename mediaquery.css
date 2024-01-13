@@ -86,6 +86,10 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .intro-page-container {
+    background-image: url(/images/bg-curvy-mobile.svg);
+    background-size: cover;
+  }
   .intro-img-container img {
     width: 29rem;
   }
